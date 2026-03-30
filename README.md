@@ -29,7 +29,7 @@
  ✔ Container web_nginx                Started       
 
  ## docker-compose ps
- ### ll be ignored, please remove it to avoid potential confusion
+ ### 
 NAME          IMAGE                  COMMAND                  SERVICE   CREATED              STATUS              PORTS
 cache_redis   redis:alpine           "docker-entrypoint.s…"   cache     About a minute ago   Up About a minute   6379/tcp
 web_nginx     lab_compose_tf06-web   "/docker-entrypoint.…"   web       About a minute ago   Up About a minute   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
